@@ -1,0 +1,22 @@
+{
+    "cmd": ["python", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "working_dir": "$file_path",
+    "shell": true,
+    "env": {
+        "PYTHONIOENCODING": "utf-8"
+    },
+    "variants": [
+        {
+            "name": "PYTHON 3.13.2",
+            "cmd": ["python", "-u", "$file"],
+            "shell": true,
+            "working_dir": "$file_path",
+            "env": {
+                "PYTHONIOENCODING": "utf-8"
+            },
+            "cmd": ["python", "-u", "$file", "<", "D:\\TASK.inp", ">", "D:\\TASK.out"]
+        }
+    ]
+}

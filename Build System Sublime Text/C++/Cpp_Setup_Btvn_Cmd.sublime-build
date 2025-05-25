@@ -1,0 +1,18 @@
+// Dung cho lam bai tap ve nha hien bang man hinh CMD (co nhap xuat)
+
+{
+    "cmd": [
+        "g++", 
+        "-std=c++17", 
+        "D:\\BTVN_C++\\chuongtrinh.cpp", 
+        "D:\\BTVN_C++\\caidat.cpp", 
+        "-o", 
+        "D:\\BTVN_C++\\chuongtrinh.exe", 
+        "&&", 
+        "start", 
+        "cmd", 
+        "/k", 
+        "D:\\BTVN_C++\\chuongtrinh.exe"
+    ],
+    "shell": true
+}

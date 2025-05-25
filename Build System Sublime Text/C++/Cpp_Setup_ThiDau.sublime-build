@@ -1,0 +1,12 @@
+// Dung cho thi dau c++ 
+// Nhap (input) o file TASK.inp
+// Xuat (output) o file TASK.out
+
+{
+    "cmd": ["g++.exe", "-std=c++17", "${file}",
+            "-o", "${file_base_name}.exe",
+            "&&", "${file_base_name}.exe<D:\\TASK.inp>D:\\TASK.out"],
+    "shell":true,
+    "working_dir":"$file_path",
+    "selector":"source.cpp"
+}
