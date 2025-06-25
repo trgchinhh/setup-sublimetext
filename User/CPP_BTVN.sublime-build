@@ -1,0 +1,7 @@
+// Dung cho lam bai tap 3 file 
+// Thay duong dan cho phu hop voi vi tri file 
+
+{
+    "cmd": ["g++", "-std=c++17", "D:\\BTVN_C++\\chuongtrinh.cpp", "D:\\BTVN_C++\\caidat.cpp", "-o", "D:\\BTVN_C++\\chuongtrinh.exe", "&&", "D:\\BTVN_C++\\chuongtrinh.exe", "<", "D:\\TASK.inp", ">", "D:\\TASK.out"],
+    "shell": true
+}

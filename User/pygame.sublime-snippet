@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+import pygame 
+
+pygame.init()
+
+HEIGHT = 600
+WEIGHT = 600
+BACKGROUND_COLOR = (255, 255, 255)
+display = pygame.display.set_mode((HEIGHT, WEIGHT))
+pygame.display.set_caption("Pygame")
+
+# Dinh nghia ma mau sac 
+WHITE   = (255, 255, 255)
+BLACK   = (0, 0, 0)
+RED     = (255, 0, 0)
+GREEN   = (0, 255, 0)
+BLUE    = (0, 0, 255)
+YELLOW  = (255, 255, 0)
+CYAN    = (0, 255, 255)
+MAGENTA = (255, 0, 255)
+GRAY    = (128, 128, 128)
+
+running = True
+
+while running:
+    display.fill(BACKGROUND_COLOR)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    pygame.display.flip()
+pygame.quit()            
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>pygame</tabTrigger> 
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope> 
+</snippet>

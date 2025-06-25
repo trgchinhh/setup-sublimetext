@@ -1,0 +1,43 @@
+{
+    "variables": {
+        "background": "#2C2C2C"
+    },
+    "globals": {
+        "background": "var(background)"
+    }
+}
+
+// {
+//     "variables": {
+//         "background": "#363636"
+//     },
+//     "globals": {
+//         "background": "var(background)"
+//     }
+// }
+
+// {
+//     "variables": {
+//         "background": "#1E1E1E"
+//     },
+//     "globals": {
+//         "background": "var(background)"
+//     }
+// }
+
+// {
+//     "variables": {
+//         "background": "#282C34",     // màu nền xám đậm kiểu One Dark
+//         "foreground": "#DCDCDC",     // màu chữ sáng vừa
+//         "selection": "#3E4451",      // vùng chọn xám nhẹ
+//         "caret": "#528BFF",          // con trỏ xanh dương
+//         "line_highlight": "#2C313C"  // dòng đang trỏ vào
+//     },
+//     "globals": {
+//         "background": "var(background)",
+//         "foreground": "var(foreground)",
+//         "selection": "var(selection)",
+//         "caret": "var(caret)",
+//         "line_highlight": "var(line_highlight)"
+//     }
+// }

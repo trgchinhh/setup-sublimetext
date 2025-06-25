@@ -1,0 +1,20 @@
+{
+	"font_size": 10.5,
+	"theme": "Default Dark.sublime-theme",
+	"dark_theme": "Adaptive.sublime-theme",
+	"light_theme": "Default Dark.sublime-theme",
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"ignored_packages": [
+	],
+	"index_files": true,
+	"tab_size": 4, 
+	"caret_style": "blink",
+    "translate_tabs_to_spaces": true,
+    "auto_complete": true,
+    "auto_complete_all": true,
+    "auto_complete_delay": 50,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_selector": "source - comment",
+}

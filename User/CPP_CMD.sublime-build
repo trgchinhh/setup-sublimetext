@@ -1,0 +1,8 @@
+// Dung cho cac tac vu can nhap xuat thong thuong
+
+{
+    "shell_cmd": "g++.exe -std=c++17 \"${file}\" -o \"${file_base_name}.exe\" && start cmd /k \"${file_base_name}.exe\"",
+    "working_dir": "$file_path",
+    "selector": "source.cpp",
+    "shell": true
+}
