@@ -1,5 +1,7 @@
 # HƯỚNG DẪN BUILD NEW SYSTEM TRÊN SUBLIME TEXT 
 
+## Tải tại đây: [Sublimetext - 4180](https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe)
+
 ## BƯỚC 1 
 - Chọn vào Tool -> Build System -> New Build System
 - Xóa hết chữ trên file mới
