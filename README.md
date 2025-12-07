@@ -28,11 +28,11 @@
 
 ## Bước 4 
 - Cài gợi ý cho sublime text tùy vào ngôn ngữ
--> Bước 1: Vào Preferences -> Package Control -> Install Package
--> Bước 2: Tìm Lsp và cài đặt
--> Bước 3: Tìm 'Lsp-...' tùy theo ngôn ngữ bạn code
-  (*) Vd như C++ là Lsp-clangd, Python là Lsp-pyright, ...
-  Riêng C++ thì phải cài clangd thông qua mingw64
-  Lệnh cài: `pacman -S mingw-w64-ucrt-x86_64-clang-tools-extra`
+  + Bước 1: Vào Preferences -> Package Control -> Install Package
+  + Bước 2: Tìm Lsp và cài đặt
+  + Bước 3: Tìm 'Lsp-...' tùy theo ngôn ngữ bạn code
+- (*) Vd như C++ là Lsp-clangd, Python là Lsp-pyright, ...
+- Riêng C++ thì phải cài clangd thông qua mingw64
+- Lệnh cài: `pacman -S mingw-w64-ucrt-x86_64-clang-tools-extra`
 
 ## CHÚC CÁC BẠN SETUP THÀNH CÔNG !!!
