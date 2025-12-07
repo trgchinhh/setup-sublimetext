@@ -1,6 +1,7 @@
 # HƯỚNG DẪN BUILD NEW SYSTEM TRÊN SUBLIME TEXT 
 
 ## Tải tại đây: [Sublimetext - 4180](https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe)
+## Tải bản mới nhất: [Sublimetext - 4200](https://www.sublimetext.com/download)
 
 ## BƯỚC 1 
 - Chọn vào Tool -> Build System -> New Build System
@@ -25,5 +26,13 @@
 
 ![image](https://github.com/user-attachments/assets/21b8b16a-8c35-4d46-8796-033c5f2768cc)
 
+## Bước 4 
+- Cài gợi ý cho sublime text tùy vào ngôn ngữ
+-> Bước 1: Vào Preferences -> Package Control -> Install Package
+-> Bước 2: Tìm Lsp và cài đặt
+-> Bước 3: Tìm 'Lsp-...' tùy theo ngôn ngữ bạn code
+  (*) Vd như C++ là Lsp-clangd, Python là Lsp-pyright, ...
+  Riêng C++ thì phải cài clangd thông qua mingw64
+  Lệnh cài: `pacman -S mingw-w64-ucrt-x86_64-clang-tools-extra`
 
 ## CHÚC CÁC BẠN SETUP THÀNH CÔNG !!!
